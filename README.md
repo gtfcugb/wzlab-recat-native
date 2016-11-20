@@ -17,9 +17,13 @@ npm i --save redux-thunk
 
 然后复制index.ios.js 和src到工程,修改根目录下.babelrc ,增加如下：
 "plugins": [
+
     ["module-alias", [
+    
       { "src": "../../../src", "expose": "src" }
+      
     ]]
+    
   ]
   
 # Show
