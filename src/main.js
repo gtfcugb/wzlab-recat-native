@@ -8,12 +8,6 @@ import createLogger from 'redux-logger'
 
 import {
   AppRegistry,
-  StyleSheet,
-  Text,
-  Image,
-  View,
-  TabBarIOS,
-  StatusBar
 } from 'react-native';
 import AppMain          from 'src/View/MainTab/AppMain';
 

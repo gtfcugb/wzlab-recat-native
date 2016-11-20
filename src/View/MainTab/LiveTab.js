@@ -18,7 +18,7 @@ export default class LiveTab extends WZViewBase{
   render() {
     return (
       <WebView
-          source={{uri:"https://dev.pydp888.com/live/"}}
+          source={{uri:WEB_HOST+"/live/"}}
         />
     );
   }

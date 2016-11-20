@@ -17,7 +17,7 @@ export default class BbsTab extends WZViewBase{
   render() {
     return (
       <WebView
-                source={{uri:"https://bbs-dev.pydp888.com/forum.php?mod=guide&action=hot"}}
+                source={{uri:BBS_WEB_HOST+"/forum.php?mod=guide&action=hot"}}
 
         />
     );

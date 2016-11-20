@@ -28,6 +28,7 @@ function newsReduce(state=initialState,action){
             debugLog("newDataSource1",action.json.news);
             var newDataSource   =   action.json.news.map(
                 function(item){ 
+                    //fix http forbidden
                     var img="https://imgcdn-mcms-prd.pydp888.com/mcms/20161028/20161028114422_621.jpg@!w318";
 
                     if(item.img && item.img!=""){
