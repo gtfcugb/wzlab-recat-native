@@ -22,9 +22,11 @@ npm i --save redux-thunk
     
       { "src": "../../../src", "expose": "src" }
       
-    ]]
+    ]
     
-  ]
+    ]
+    
+]
   
 # Show
 ![image](https://github.com/gtfcugb/wzlab-recat-native/blob/master/doc/wzlab-1.png)
